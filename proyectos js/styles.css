@@ -12,16 +12,21 @@
     font-family: montserrat;
 
 }
-
-h1{
-    color: var(--yellow-primary);
-    text-align: center;
-}
-
 body {
     background-color: black;
     height: 500px;
+    text-align: center;
 }
+
+h1{
+    color: var(--yellow-primary);
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 2px 0px 0px var(--yellow-primary);
+    padding: 0px;
+}
+
+
 
 
 nav{
