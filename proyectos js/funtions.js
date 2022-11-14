@@ -2,6 +2,8 @@ const carrusel =document.querySelector('.carrusel');
 const carruselItem =document.querySelector('.carrusel-item');
 const carruselItems =document.querySelector('.carrusel-items');
 
+const h1 =document.getElementById('h1');
+
 let maxScrollLeft = carruselItems.scrollWidth - carruselItems.clientWidth;
 intervalo = null
 let step = 1;
