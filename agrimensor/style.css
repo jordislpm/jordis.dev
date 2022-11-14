@@ -92,21 +92,13 @@ h2 {
     
 }
 
-.h1_active{
+#header h1{
     display: inline-block;
     z-index: 10;
     color: var(--white2);
     background: linear-gradient(rgba(5,7,12,0.40),rgba(5,7,12,0.40));
     border-radius: 5px;
     
-}
-
-.h1_desactive{
-    display: inline-block;
-    z-index: 10;
-    color: var(--black0);
-    background: linear-gradient(rgba(5,7,12,0.40),rgba(5,7,12,0.40));
-    border-radius: 5px;
 }
 
 
@@ -475,5 +467,3 @@ footer small{
 
 
 /* end styles responsive */
-
-/* Css de pruebas*/
