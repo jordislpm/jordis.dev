@@ -35,3 +35,35 @@ const stop = () => {
   });
   
   start();
+
+
+  // respondive part
+
+  (function (){
+    let menuHorizontal = document.querySelector('.menu-horizontal');
+    let menuVertical = document.querySelector('.menu-vertical');
+    let imgJS = document.querySelector('.img_js');
+    let contenedorJS = document.querySelector('.contenedor_js');
+
+    if (window.matchMedia("(max-width: 800px)").matches) {
+        menuHorizontal.removeAttribute("class", "menu-horizontal");
+        menuHorizontal.setAttribute("class", "menu-horizontal-responsive");
+
+        menuVertical.removeAttribute("class", "menu-vertical");
+        menuVertical.setAttribute("class", "menu-vertical-responsive");
+
+        contenedorJS.removeAttribute("class", "contenedor_js");
+        
+        
+        imgJS.removeAttribute("class", "img_js");
+       
+       
+        
+       
+      } else {  
+       ;
+      }  
+  })()
+
+
+  
