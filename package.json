@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "javascript, node and react practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jordis.dev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordislpm/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jordislpm/portfolio/issues"
+  },
+  "homepage": "https://github.com/jordislpm/portfolio#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
