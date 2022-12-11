@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, #ff0000 0%, #2e0101 100%);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  h3, p {
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  #app {
+    background-image: url(./pomodoro.jpg);
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    border: solid 1px #ccc;
+    padding: 20px;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #time {
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    
+  }
+  #time #value {
+    color: antiquewhite;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: solid 1px #ccc;
+    width: 300px;
+  }
+  button,
+  input[type="submit"] {
+    border: none;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #tasks {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .task {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .task .completed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .done {
+    display: inline-block;
+    padding: 5px;
+    background-color: #ccc;
+};
+
